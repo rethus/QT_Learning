@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>592</width>
+    <height>438</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>380</y>
+     <width>156</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="face_label">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>51</y>
+     <width>36</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>头像：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="info_label">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>69</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>个人说明：</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="info_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>140</y>
+     <width>171</width>
+     <height>151</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="update_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>更新</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>304</width>
+     <height>342</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="username_label">
+            <property name="text">
+             <string>用户名：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="realname_label">
+            <property name="text">
+             <string>姓名：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="sex_label">
+            <property name="text">
+             <string>性别：</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLineEdit" name="username_lineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="realname_lineEdit"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="sex_comboBox">
+            <item>
+             <property name="text">
+              <string>男</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>女</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="office_label">
+          <property name="text">
+           <string>部门：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="office_textEdit"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3"/>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="age_label">
+          <property name="text">
+           <string>年龄：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="age_lineEdit"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="other_lineEdit">
+      <property name="text">
+       <string>备注：</string>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>buttonBox</zorder>
+  <zorder>username_label</zorder>
+  <zorder>username_lineEdit</zorder>
+  <zorder>realname_label</zorder>
+  <zorder>realname_lineEdit</zorder>
+  <zorder>sex_label</zorder>
+  <zorder>sex_comboBox</zorder>
+  <zorder>office_label</zorder>
+  <zorder>office_textEdit</zorder>
+  <zorder>age_label</zorder>
+  <zorder>age_lineEdit</zorder>
+  <zorder>office_textEdit</zorder>
+  <zorder>face_label</zorder>
+  <zorder>info_label</zorder>
+  <zorder>info_textEdit</zorder>
+  <zorder>update_pushButton</zorder>
+  <zorder>age_lineEdit</zorder>
+  <zorder>age_label</zorder>
+  <zorder>age_lineEdit</zorder>
+  <zorder>other_lineEdit</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
